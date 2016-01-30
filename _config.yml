@@ -1,8 +1,20 @@
-layout_spectrum: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0
 color:
   saturation: 0.07394695
-  lightness: 0.08255692
   brandStrength: 0.4848229
+  lightness: 0.08255692
   brandColors:
     - '#151F20'
     - '#CE9A42'
@@ -10,5 +22,5 @@ color:
     - '#E1D1BD'
     - '#6D8877'
   rhythmicContrast: 0.9461148
-typography_spectrum: 0
+layout_spectrum: 1
 name: Digital Marketing Cringe
